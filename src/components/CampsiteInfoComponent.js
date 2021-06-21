@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardBody, CardText, CardTitle } from 'reactstrap';
 
 class CampsiteInfo extends Component {
     renderCampsite(campsite) {
@@ -9,7 +9,7 @@ class CampsiteInfo extends Component {
                     <CardImg top src={campsite.image} alt={campsite.name} />
                     <CardBody>
                         <CardTitle>{campsite.name}</CardTitle>
-                        <CardTitle>{campsite.description}</CardTitle>
+                        <CardText>{campsite.description}</CardText>
                     </CardBody>
                 </Card>
             </div>
