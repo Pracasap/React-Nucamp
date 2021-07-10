@@ -49,11 +49,11 @@ class Main extends Component {
                     campsitesLoading={this.props.campsites.isLoading}
                     campsitesErrMess={this.props.campsites.errMess}
                     promotion={this.props.promotions.promotions.filter(promotion => promotion.featured)[0]}
-                    promotionLoading={this.props.promotions.isLoading}
-                    promotionErrMess={this.props.promotions.errMess}
+                    promotionsLoading={this.props.promotions.isLoading}
+                    promotionsErrMess={this.props.promotions.errMess}
                     partner={this.props.partners.partners.filter(partner => partner.featured)[0]}
                     partnersLoading={this.props.partners.isLoading}
-                    partnerErrMess={this.props.partners.errMess}
+                    partnersErrMess={this.props.partners.errMess}
                 />
             )
         }
